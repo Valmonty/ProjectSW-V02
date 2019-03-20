@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="682C5673-1631-64B9-F7DF-2422FBF82E12" name="T_HOMEM">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2019-03-18 12:25:59 UTC</createdTime>
+<ownerDesignName>EXEMPLOS_RELACIONAMENTOS</ownerDesignName>
+<engineerTo>
+<item key="D133E5CD-3B67-13EE-6FED-6F1AED655C86" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_homem" id="F9FC7902-C97E-EE56-3B3A-517DF602B63D">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2019-03-18 12:26:14 UTC</createdTime>
+<ownerDesignName>EXEMPLOS_RELACIONAMENTOS</ownerDesignName>
+<engineerTo>
+<item key="D133E5CD-3B67-13EE-6FED-6F1AED655C86" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_homem" id="E2F4B1DE-9A0B-1500-7328-4716071B3FF4">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2019-03-18 12:26:19 UTC</createdTime>
+<ownerDesignName>EXEMPLOS_RELACIONAMENTOS</ownerDesignName>
+<engineerTo>
+<item key="D133E5CD-3B67-13EE-6FED-6F1AED655C86" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2EF26F7E-C1B6-7CEB-2471-D26F63F237D6" name="T_HOMEM PK">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2019-03-18 12:26:18 UTC</createdTime>
+<ownerDesignName>EXEMPLOS_RELACIONAMENTOS</ownerDesignName>
+<engineerTo>
+<item key="D133E5CD-3B67-13EE-6FED-6F1AED655C86" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F9FC7902-C97E-EE56-3B3A-517DF602B63D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

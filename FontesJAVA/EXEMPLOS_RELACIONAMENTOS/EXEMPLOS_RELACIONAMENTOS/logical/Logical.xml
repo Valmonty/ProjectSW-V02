@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="A6F85C75-FDD6-BD18-42AC-B46FF232B634" mainViewID="AC04C6A3-CBFB-7F53-B4EC-6FE60A99E512">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2019-03-18 12:24:43 UTC</createdTime>
+<ownerDesignName>EXEMPLOS_RELACIONAMENTOS</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>
